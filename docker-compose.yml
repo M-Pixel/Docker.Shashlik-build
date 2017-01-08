@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  builder:
+    image: shashlik
+    volumes:
+     - source_files:/root/shashlik
+
+volumes:
+  source_files: {}
